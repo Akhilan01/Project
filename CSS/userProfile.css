@@ -1,0 +1,119 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  body{
+      background-image: url(/Images/2119.jpg);
+background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  /* Style for the form headings */
+  h1, label {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Style for the form inputs */
+  input, textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  /* Style for the form submit button */
+  input[type="submit"] {
+    background-color: #ff3c01;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 300px;
+    margin-left: 160px;
+    
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #ed0000;
+    }
+  
+  /* Style for the form field labels */
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the form field placeholders */
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #999;
+  }
+  
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #999;
+  }
+  
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #999;
+  }
+  
+  :-moz-placeholder { /* Firefox 18- */
+    color: #999;
+  }
+  
+  /* Style for the form error messages */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  h1{
+      text-align: center;
+      color: #ffffff;
+  }
+#change-profile-image-btn {
+display: flex;
+margin-top: 10px;
+margin-left: 730px;
+border-radius: 5px;
+}
+#change-profile-image-btn:hover{
+cursor: pointer;
+}
+#profile-image {
+display: flex;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin-left: 650px;
+object-fit: cover;
+
+}
+#profile-image-input {
+display: none;
+}
+.user{
+width: 30px;
+height: 30px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 10px; 
+	margin-top: 10px;
+  }
+  .icon:hover{
+	cursor: pointer;
+  transform: scale(1.1);
+}

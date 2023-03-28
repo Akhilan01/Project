@@ -1,0 +1,70 @@
+newbody{
+	background-image: url(https://img.freepik.com/premium-photo/old-vintage-paper-texture-decorative-blank-retro-design-background_213524-185.jpg?size=626&ext=jpg&ga=GA1.2.808850378.1678946160&semt=ais);
+	font-size: 25px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 10px; 
+	margin-top: 10px;
+  }
+.icon:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	padding: 1rem;
+	margin-top: 2rem;
+	
+}
+h3{
+  margin-top: 2rem;
+  font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+#profile-image {
+display: flex;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin-left: 100px;
+object-fit: cover;
+}
+
+#profile-image-input {
+display: none;
+}
+
+#change-profile-image-btn {
+display: flex;
+margin-top: 10px;
+margin-left: 730px;
+border-radius: 10px;
+}
+#profile-image{
+margin-left: 650px;
+margin-top: 25px;
+border: #62e1f1 solid;
+}
+.line{
+margin-left: 250px;
+}
+
+#bio{
+	text-align: center;
+}
+.myself{
+	font-weight: bold;
+}

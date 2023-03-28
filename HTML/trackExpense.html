@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Track Expenses</title>
+    <link rel="stylesheet" href="/CSS/trackExpense.css" />
+    <link rel="website icon" type=".png"  href="/Images/logoo.png" />
+    <script
+      src="https://kit.fontawesome.com/0d760670bf.js"
+      crossorigin="anonymous"
+    ></script>
+    
+  </head>
+  <body>
+    <button class="icon">
+      <a href="loggedIn.html"><i class="fa fa-arrow-left"></i></a>
+    </button>
+    <div class="container">
+      <h1>TRACK MY EXPENSES</h1>
+      <div class="grid-container">
+        <div class="grid-item"> 
+        <button class="sort-by-btn" onclick="updateExpensesTable()">
+          Sort by Month
+        </button>
+          <div class="grid-item">
+          <table id="expensesTable">
+            <thead>
+              <tr>
+                <th>Month</th>
+                <th >Expense Name</th>
+                <th>Expense Amount</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+	<script src="/JS code/sort.js"></script>
+  <script src="/JS code/local.js"></script>
+  <script src="/JS code/getElement.js"></script>
+  </body>
+</html>

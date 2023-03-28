@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/CSS/exer.css" />
+    <link rel="website icon" type=".png" href="/Images/logoo.png" />
+    <script src="/JS code/exer.js"></script>
+    <script
+    src="https://kit.fontawesome.com/0d760670bf.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body class="container">
+    <button class="home">
+      <a href="home.html"><i class="fa fa-home"></i></a>
+    </button>
+    <img class="logo" src="/Images/0 (1).png" alt="" />
+    <form onsubmit="return validateForm()" action="loggedIn.html">
+      <section>
+        <div class="content">
+          <h1>LOGIN HERE!</h1>
+          <div>
+            <span class="icon"
+              ><i class="fa-sharp fa-solid fa-envelope"></i
+            ></span>
+            <input
+              class="box"
+              type="text"
+              id="email"
+              placeholder="Enter valid Email address"
+            />
+          </div>
+          <div>
+            <span class="icon"><i class="fa-sharp fa-solid fa-lock"></i></span>
+            <input
+              class="box"
+              type="password"
+              id="password"
+              placeholder="Enter your Password"
+            />
+          </div>
+          <div class="remember"><input type="checkbox" />Remember me</div>
+          <div><button type="submit">Sign in</button></div>
+          <div class="forget"><a href="forgot.html">Forget password?</a></div>
+          <i></i>
+        </div>
+      </section>
+    </form>
+  </body>
+</html>

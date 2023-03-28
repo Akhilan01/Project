@@ -1,0 +1,115 @@
+body {
+    background-color: #f5f5f5;
+    background-image: url(/Images/2119.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Table styling */
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #bf0101;
+    color: white;
+  }
+  
+  /* Input field styling */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #9e9b9b;
+    margin-bottom: 20px;
+    width: 96%;
+  }
+  
+  /* Submit button styling */
+  input[type="submit"] {
+    background-color: #d6692a;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+    border: none;
+  }
+  input[type="submit"]:hover {
+    background-color: #bf0000;
+    color: white;
+  }
+  
+  /* Heading styling */
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  
+  /* Month input field styling */
+  #month {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #979595;
+    width: 100%;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    margin: 20px 0;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  
+  }
+  
+  /* Class selectors for positioning */
+  .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+  }
+  
+  .icon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  }
+  
+  /* Form container styling */
+  #recordForm {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #c7c7c7;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Animation for table rows */
+  table tbody tr {
+    background-color: #f2f2f2;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+  

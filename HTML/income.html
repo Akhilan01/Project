@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/income.css" />
+    <link rel="website icon" type=".png"  href="/Images/logoo.png" />
+    <script
+    src="https://kit.fontawesome.com/0d760670bf.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body>
+    <button class="icon">
+      <a href="loggedIn.html"><i class="fa fa-arrow-left"></i></a>
+    </button>
+    <h1>Salary Records</h1>
+    <form id="recordForm">
+      <span class="month"><label for="month">Month:</label>
+      <select id="month" name="month" placeholder="Select">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+      </select></span>
+      <span class="salary">
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="salary" placeholder="Eg.50000/-"
+      /></span>
+      <div><input type="submit" value="Add Record" /></div>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody id="records"></tbody>
+    </table>
+    <script src="/JS code/income.js"></script>
+  </body>
+</html>

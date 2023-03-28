@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/userProfile.css">
+    <link rel="website icon" type=".png"  href="/Images/logoo.png" />
+    <script
+    src="https://kit.fontawesome.com/0d760670bf.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <button class="icon">
+        <a href="loggedIn.html"><i class="fa fa-arrow-left"></i></a>
+      </button>
+    <h1>MY PROFILE</h1>
+    <img
+    id="profile-image"
+    src="\Images\user image.png"
+  />
+  <input id="profile-image-input" type="file" accept="image/*" />
+  <button id="change-profile-image-btn">
+    <img class="user" src="data:image/png;base64,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" alt="">
+    
+  </button>
+    <form action="">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob"><br><br>
+      
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age"><br><br>
+      
+      <label for="occupation">Occupation:</label>
+      <input type="text" id="occupation" name="occupation"><br><br>
+      
+      <label for="salary">Annual Salary:</label>
+      <input type="number" id="salary" name="salary" min="0" step="1000"><br><br>
+      
+      <label for="bio">Bio:</label>
+      <textarea id="bio" name="bio" rows="5" cols="50"></textarea><br><br>
+      
+      <input type="submit" id="save-changes-btn" value="Save Changes">
+    </form>
+    <script src="userProfile.js"></script>
+    <script></script>
+</body>
+</html>

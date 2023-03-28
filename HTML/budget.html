@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUDGET</title>
+    <link rel="stylesheet" href="/CSS/budget.css" />
+    <link rel="website icon" type=".png" href="/Images/logoo.png" />
+    <script
+      src="https://kit.fontawesome.com/0d760670bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+        <button class="icon">
+        <a href="loggedIn.html"><i class="fa fa-arrow-left"></i></a>
+      </button>
+      <h1>BUDGET</h1>
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="form-container">
+            <h2>Add Details</h2>
+            <form>
+              <div class="expense">
+                <label for="expens">Choose Expense: </label>
+                <select id="expens" name="expens" placeholder="Select">
+                  <option value="Insurance">Insurance</option>
+                  <option value="Grocery">Grocery</option>
+                  <option value="Medical expenses">Medical expenses</option>
+                  <option value="Emi">Emi</option>
+                  <option value="Tax">Tax</option>
+                </select>
+                <input
+                  type="text"
+                  id="expenseAmount"
+                  placeholder="Expense Amount"
+                />
+                <br />
+              </div>
+              <input
+                type="button"
+                class="button"
+                value="Add Expense"
+                onclick="addExpense()"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="grid-item tom">
+          <table id="expensesTable">
+            <thead>
+              <tr>
+                <th>Expense Name</th>
+                <th>Expense Amount</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="/JS code/budget.js"></script>
+  </body>
+</html>
